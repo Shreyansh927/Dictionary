@@ -6,7 +6,7 @@ A simple and responsive online English Dictionary built using HTML, CSS, Bootstr
 
 ## Live Demo
 
-[dictionary2k24.ccbp.tech](https://dictionary2k24.ccbp.tech)
+[dictionary2k24.ccbp.tech](https://dictionary2k24.ccbp.tech)      
 
 ---
 
@@ -15,6 +15,7 @@ A simple and responsive online English Dictionary built using HTML, CSS, Bootstr
 ![Screenshot 2025-06-11 223544](https://github.com/user-attachments/assets/2cc2915e-ad56-4f5c-8c87-d75c04b7aa55)                      
 
 
+![Screenshot 2025-06-11 223544](https://github.com/user-attachments/assets/2cc2915e-ad56-4f5c-8c87-d75c04b7aa55)                      
 
 
 ---
