@@ -13,8 +13,8 @@ A simple and responsive online English Dictionary built using HTML, CSS, Bootstr
 ## Preview
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2cc2915e-ad56-4f5c-8c87-d75c04b7aa55" alt="Screenshot 1" width="45%" />
-  <img src="https://github.com/user-attachments/assets/82da8e66-dd8d-4299-82f3-716146640ff4" alt="Screenshot 2" width="45%" />
+  <img src="https://github.com/user-attachments/assets/2cc2915e-ad56-4f5c-8c87-d75c04b7aa55" alt="Screenshot 1" width="45%" height="300px" />
+  <img src="https://github.com/user-attachments/assets/82da8e66-dd8d-4299-82f3-716146640ff4" alt="Screenshot 2" width="45%" height="300px" />
 </p>           
 
 
