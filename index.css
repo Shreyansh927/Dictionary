@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bg3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dic-card {
+  position: fixed;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.search-input {
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #c7c6c3;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  transition: all 0.3s;
+  padding-left: 10px;
+}
+
+.new-search-input {
+  border-top-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-width: 2px;
+  transition: all 0.5s;
+}
+
+.ns {
+  border-width: 2px;
+}
+
+.search-input::placeholder {
+  padding-left: 5px;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.sear {
+  visibility: hidden;
+  transition: all 0.01s;
+}
+
+.s-b {
+  height: 37px;
+  width: 40px;
+
+  text-align: left;
+  transition: width 0.3s, transform 0.3s;
+}
+
+.s-b1 {
+  transform: rotate(360deg);
+  width: 110px;
+}
+
+.divline {
+  height: 1.6px;
+  width: 60px;
+  background-color: black;
+}
+
+.divline2 {
+  height: 1.6px;
+  width: 10px;
+  background-color: black;
+  position: absolute;
+  top: 21%;
+  left: -5%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.divline1 {
+  visibility: visible;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.width {
+  width: 70px;
+}
+
+.mean-card {
+  display: none;
+  border-radius: 5px;
+  border: solid 0.1px #9e9b9c;
+  background-color: ;
+}
+
+.spinner {
+  display: none;
+}
+
+/* Base styles for the grid */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 equal-width columns */
+  gap: 20px;
+  /* Space between grid items */
+}
+
+.item {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Media query for smaller screens (e.g., tablets) */
+@media only screen and (max-width: 768px) {
+  .bg3 {
+    background-color: green;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns */
+  }
+}
+
+/* Media query for very small screens (e.g., mobile devices) */
+@media only screen and (max-width: 480px) {
+  .bg3 {
+    background-color: blue;
+
+    /* 1 column */
+  }
+
+  .dic-card {
+    transform: scale(0.7);
+  }
+}
