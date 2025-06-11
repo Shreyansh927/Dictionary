@@ -12,7 +12,10 @@ A simple and responsive online English Dictionary built using HTML, CSS, Bootstr
 
 ## Preview
 
-![App Preview](https://your-image-link-if-any.png)
+![Screenshot 2025-06-11 223544](https://github.com/user-attachments/assets/2cc2915e-ad56-4f5c-8c87-d75c04b7aa55)                      
+
+
+
 
 ---
 
